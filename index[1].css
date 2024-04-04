@@ -1,10 +1,11 @@
 * {
-  margin 0;
-  padding 0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 :root {
---border: 1px solid #ffffff1a;
+  --border: 1px solid #ffffff1a;
 }
 
 body, table, input, button {
@@ -13,25 +14,23 @@ body, table, input, button {
 
 body {
   background-color: #121214;
-  color: #ffffff
+  color: #ffffff;
 }
 
-.container{
+.container {
   max-width: 690px;
   margin: 0 auto;
   padding: 20px 32px;
-
 }
 
 header {
   padding: 20px 0; 
 }
 
-form{
+form {
   border: var(--border);
-  border-inline: none;
+  border-inline-start: none;
   padding: 20px 0;
-  
 }
 
 fieldset {
@@ -41,65 +40,57 @@ fieldset {
 fieldset > div {
   display: flex;
   gap: 12px;
- 
 }
 
-.input-wrapper
-{
- flex: 1;
- display: flex;
- align-items: center;
- 
-
- border: var(--border);
- border-radius: 10px;
- padding: 8px 12px;
- font: 400 14px/150% 'Roboto', sans-serif;
- color: #c4c4cc
+.input-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border: var(--border);
+  border-radius: 10px;
+  padding: 8px 12px;
+  font: 400 14px/150% 'Roboto', sans-serif;
+  color: #c4c4cc;
 }
 
 input {
   all: unset;
 }
-fieldset legend, section h2{
-font: 700 16px/140% "Roboto", sans-serif;
-color: #e1e1e6;
-padding-bottom: 16px;
+
+fieldset legend,
+section h2 {
+  font: 700 16px/140% "Roboto", sans-serif;
+  color: #e1e1e6;
+  padding-bottom: 16px;
 }
 
-
 fieldset button {
-width: fit-content;
-border: 0;
-background-color: #f48f56;
-border-radius: 10px;
-padding: 7px 20px;
-
-font: 700 12px/24px 'Roboto', sans-serif;
-color: #00292E;
+  width: fit-content;
+  border: 0;
+  background-color: #f48f56;
+  border-radius: 10px;
+  padding: 7px 20px;
+  font: 700 12px/24px 'Roboto', sans-serif;
+  color: #00292E;
 }
 
 fieldset button:hover {
   background-color: #f48f56;
 }
 
-.lista-parcitipantes {
+.lista-participantes {
   padding: 20px 0;
-}
-
-.lista-parcitipantes{
   border: var(--border);
   border-radius: 8px;
 }
 
-table{
+table {
   border-collapse: collapse;
 }
 
-
 table thead {
-font-size: 14px;
-line-height: 16px;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 thead th,
@@ -128,8 +119,7 @@ tbody td small {
 
 tbody td button {
   all: unset;
-  color: #9ff9cc
- 
+  color: #9ff9cc;
 }
 
 tbody td button:hover {
